@@ -24,11 +24,11 @@ This project demonstrates how to containerize a Python Flask app and manage its 
 
 ### Apply the Infrastructure
 
-   terraform apply
+    terraform apply
 
 ### Destroy the Infrastructure
 
-  terraform destroy
+    terraform destroy
 
 
 
