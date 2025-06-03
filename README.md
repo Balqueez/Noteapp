@@ -11,22 +11,22 @@ This project demonstrates how to containerize a Python Flask app and manage its 
 
 ---
 
-### Terraform Workflow:
+## Terraform Workflow:
 
-## Initialize Terraform
+### Initialize Terraform
 
     terraform init 
-## Define Resources (main.tf)
+### Define Resources (main.tf)
 
  - docker_image: Builds the Docker image
  - docker_container: Runs the container
  - null_resource: Pushes image
 
-## Apply the Infrastructure
+### Apply the Infrastructure
 
    terraform apply
-   
-## Destroy the Infrastructure
+
+### Destroy the Infrastructure
 
   terraform destroy
 
